@@ -132,7 +132,7 @@ for(let i=0;i<carrito.length;i++){
 }
 
 for(let i=0;i<carrito.length;i++){
-  nombreProductosCarrito = nombreProductosCarrito +carrito[i].nombre
+  nombreProductosCarrito = nombreProductosCarrito +carrito[i].nombre + " \n"
 }
 
 
@@ -144,7 +144,9 @@ for (const prod of carrito) {
 
 
 
-alert(`Este es su listado de productos.\n`+ nombreProductosCarrito.join(" - ") + `  \nEl valor total de su compra es: `+ totalCompra +`. \n Espero que disfrute sus elecciones!`)
+alert(`Este es su listado de productos.\n`+ nombreProductosCarrito + `  \nEl valor total de su compra es: `+ totalCompra +`.\nEspero que disfrute sus elecciones!`)
+
+
 
 
 
