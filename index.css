@@ -1,0 +1,183 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+/* Header Bootstrap*/
+header {
+    background: #537472;
+    /* Menu desplegable */
+  }
+  
+  header .navegacion-personal {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+  }
+  
+  header .logo-efe {
+    margin-left: 20px;
+  }
+  
+  header .logo-efe img {
+    width: 90px;
+  }
+  
+  header .menu-desplegable {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  header .menu-personal {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  
+  header .menu-personal .i-menu {
+    margin: 10px;
+    
+    
+  }
+  
+  header .menu-personal .i-menu .a-menu {
+    font-family: sans-serif;
+    color: #F3F4F4;
+    font-weight: 800;
+    font-size: 22px;
+    height: auto;
+  }
+  
+  header .i-menu {
+    margin: 20px;
+    
+    
+  }
+  
+  header .i-menu .a-menu {
+    font-family: sans-serif;
+    color: #F3F4F4;
+    font-weight: 800;
+    font-size: 20px;
+    height: 20px;
+  }
+  
+  header .i-menu .desplegable {
+    background: #235751;
+  }
+  
+  header .i-menu .desplegable li {
+    
+    list-style: none;
+  }
+  
+  header .i-menu .desplegable li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header .i-menu .desplegable .sub-menu {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 3px;
+  }
+  
+  header .lugar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: #FEFEFE;
+    height: 100px;
+    padding-left: 3%;
+    padding-right: 7%;
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  header .lugar h1 {
+    font-family: "PT Serif script=latin rev=1";
+    font-weight: 700;
+  }
+  
+  header .carrito img{
+    height: 100px;
+    width: 100px;
+  }
+  @media screen and (max-width: 1110px) {
+    header .navegacion-personal {
+      height: auto;
+    }
+    header .lugar, header .logo-efe {
+      display: none;
+    }
+    header .menu-personal {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 920px) {
+    header .menu-personal ul {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+    header .menu-personal ul .i-menu {
+      border: none;
+      padding: 20px;
+      margin: 0;
+      background: none;
+    }
+    header .productos {
+      background: none;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    header .productos .a-menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    header .productos .desplegable .li-sub-menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    #header-desplegable{
+        background: #FF9B36;
+      }
+  }
